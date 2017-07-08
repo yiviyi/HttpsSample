@@ -63,7 +63,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             SSLContext sc = SSLContext.getInstance("SSL");
             TrustManager[] trustManagers = createTrustManager();
             if (trustManagers == null) {
-                Log.e("TAG", "tmf");
+                Log.e("TAG", "tmff");
                 return;
             }
             sc.init(null, trustManagers, new SecureRandom());
